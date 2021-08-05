@@ -1,6 +1,6 @@
 import re
 import json
-import odl_expressions
+from odl_parser import odl_expressions
 
 
 class OdlParserError(Exception):
